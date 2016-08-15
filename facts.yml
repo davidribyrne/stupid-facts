@@ -1,12 +1,18 @@
 text:
   - "{name} {action} {work} {tech}"
-  - In {oldyear}, {name} created {tech} for {company}
+  - "In {oldyear}, {name} created {tech} for {company}"
   - "{name} was once {investigate} {crime} a {machine} that belonged to {company}"
   - "{company} sued {name} in {oldyear} for delivering a poorly written {language} program"
-  - Around {oldyear}, {name} created the {machine} for {company}
+  - "Around {oldyear}, {name} created the {machine} for {company}"
   - "{name} swears that {language} is the perfect programming language"
   - "{name} dreams in {language}"
-  - "In {oldyear} {company} fired {name} for ruining {tech}"
+  - "In {oldyear}, {company} fired {name} for ruining {tech}"
+  - "{name}'s basement is full of {machine}s"
+  - "Children should be taught to fear the day that {company} {work}s {tech}"
+  - "Somewhere, {name} is {loudly} crying over a {broken} {machine}"
+  - "A restraining order requested by {company} prevents {name} from using {tech}"
+  - "A restraining order requested by {company} prevents {name} from using a {machine}"
+  - "Local law enforcement has been asked to lookout for {name} carrying a {machine}"
 company:
   - the NSA
   - a previous employer
@@ -30,6 +36,11 @@ action:
   - went insane trying to
   - spent years planning to
   - will never
+loudly:
+  - quietly
+  - loudly
+  - silently
+  - violently
 work:
   - learn
   - reverse engineer
@@ -39,7 +50,7 @@ work:
   - download
 investigate:
   - investigated for
-  - accused of 
+  - accused of
   - imprisoned for
   - framed for
   - charged with
@@ -52,7 +63,16 @@ crime:
   - breaking
   - damaging
   - absconding with
-  - vandalyzing 
+  - vandalyzing
+broken:
+  - hacked
+  - stolen
+  - lost
+  - broken
+  - damaged
+  - vandalyzed
+  - destroyed
+  - incinerated
 tech:
   - Xenix
   - OS/2
