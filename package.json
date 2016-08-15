@@ -1,0 +1,22 @@
+{
+  "name": "stupid-facts",
+  "version": "0.0.5",
+  "description": "Stupid, fake facts",
+  "main": "facts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidribyrne/stupid-facts.git"
+  },
+  "author": "David Byrne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidribyrne/stupid-facts/issues"
+  },
+  "homepage": "https://github.com/davidribyrne/stupid-facts#readme",
+  "dependencies": {
+    "yamljs": "^0.2.8"
+  }
+}
