@@ -18,7 +18,7 @@ function Facts()
 {
 	for (var type in local)
 	{
-		data[type].concat(local[type]);
+		data[type] = data[type].concat(local[type]);
 	}
 }
 

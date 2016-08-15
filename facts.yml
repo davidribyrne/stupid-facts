@@ -1,17 +1,21 @@
 text:
-  - Legend has it that {name} went insane trying to understand {tech}
+  - "{name} {action} {work} {tech}"
   - In {oldyear}, {name} created {tech} for {company}
   - "{name} was once {investigate} {crime} a {machine} that belonged to {company}"
   - "{company} sued {name} in {oldyear} for delivering a poorly written {language} program"
   - Around {oldyear}, {name} created the {machine} for {company}
   - "{name} swears that {language} is the perfect programming language"
+  - "{name} dreams in {language}"
+  - "In {oldyear} {company} fired {name} for ruining {tech}"
 company:
   - the NSA
+  - a previous employer
   - E Corp
   - Evil Corp
   - Planet Express
   - a Canadian crime syndicate
   - the mafia
+  - a local preschool
   - a deranged homeless man
   - Umbrella Corp.
   - LexCorp
@@ -22,12 +26,24 @@ company:
   - Weyland-Yutani
   - Wayne Enterprises
   - the Tyrell Corporation
+action:
+  - went insane trying to
+  - spent years planning to
+  - will never
+work:
+  - learn
+  - reverse engineer
+  - install
+  - uninstall
+  - compile
+  - download
 investigate:
   - investigated for
   - accused of 
   - imprisoned for
   - framed for
   - charged with
+  - deported for
 crime:
   - hacking
   - hitting
@@ -40,13 +56,24 @@ crime:
 tech:
   - Xenix
   - OS/2
+  - pulse dialing
   - Microsoft Bob
   - CICS
   - Windows ME
   - HyperCard
+  - MS-DOS
+  - MacDraw
+  - Kermit
+  - zmodem
 machine:
   - Raspberry Pi
   - Apple Lisa
+  - NES
+  - modem
+  - slide rule
+  - Game Boy
+  - CRT monitor
+  - mimeograph
   - punch card reader
   - AS/400
   - mainframe

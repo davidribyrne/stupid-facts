@@ -1,6 +1,6 @@
 {
   "name": "stupid-facts",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Stupid, fake facts",
   "main": "facts.js",
   "scripts": {
