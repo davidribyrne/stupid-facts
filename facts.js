@@ -32,6 +32,6 @@ Facts.prototype.generateFact = function()
 		text = text.replace(typeRe, randomElement(data[type]));
 	}
 	var re = new RegExp("\{oldyear\}");
-	text = text.replace(re, randomRange(1930,1990));
+	text = text.replace(re, randomRange(1960,1990));
 	return text;
 };

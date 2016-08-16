@@ -13,6 +13,8 @@ text:
   - "A restraining order requested by {company} prevents {name} from using {tech}"
   - "A restraining order requested by {company} prevents {name} from using a {machine}"
   - "Local law enforcement has been asked to lookout for {name} carrying a {machine}"
+  - "A news article reported that {company} refuses to use {tech} for unknown reasons"
+  - "{name} has an unpublished movie script about {tech} and the {machine}"
 company:
   - the NSA
   - a previous employer
@@ -32,6 +34,7 @@ company:
   - Weyland-Yutani
   - Wayne Enterprises
   - the Tyrell Corporation
+  - AOL
 action:
   - went insane trying to
   - spent years planning to
@@ -84,7 +87,14 @@ tech:
   - MS-DOS
   - MacDraw
   - Kermit
+  - xmodem
+  - ymodem
   - zmodem
+  - Lotus 1-2-3
+  - NCSA Mosaic
+  - Qmodem
+  - Norton Commander
+  - Netscape Navigator
 machine:
   - Raspberry Pi
   - Apple Lisa
@@ -101,9 +111,8 @@ machine:
 name:
   - "Sterling Archer"
 language:
-  - "@Formula"
   - "A-0 System"
-  - "A# "
+  - "A#"
   - "A# .NET"
   - "A+"
   - "A++"
@@ -220,13 +229,10 @@ language:
   - "CoffeeScript"
   - "ColdFusion"
   - "COMAL"
-  - "Combined Programming Language "
   - "COMIT"
-  - "Common Intermediate Language "
   - "Common Lisp"
   - "COMPASS"
   - "Component Pascal"
-  - "Constraint Handling Rules "
   - "Converge"
   - "Cool"
   - "Coq"
@@ -319,7 +325,6 @@ language:
   - "Frege"
   - "G"
   - "G-code"
-  - "Game Maker Language"
   - "GameMonkey Script"
   - "GAMS"
   - "GAP"
@@ -383,7 +388,7 @@ language:
   - "JADE"
   - "Jako"
   - "JAL"
-  - "Janus "
+  - "Janus"
   - "JASS"
   - "Java"
   - "JavaFX Script"
@@ -410,7 +415,7 @@ language:
   - "Kotlin"
   - "KRC"
   - "KRL"
-  - "KRL "
+  - "KRL"
   - "KRYPTON"
   - "ksh"
   - "L"
@@ -454,8 +459,8 @@ language:
   - "M#"
   - "M2001"
   - "M4"
-  - "Machine code"
-  - "MAD "
+  - "machine code"
+  - "MAD"
   - "MAD/I"
   - "Magik"
   - "Magma"
@@ -463,16 +468,16 @@ language:
   - "Maple"
   - "MAPPER"
   - "MARK-IV"
-  - "MarsCode "
+  - "MarsCode"
   - "Mary"
   - "MASM"
   - "MATH-MATIC"
   - "Mathematica"
   - "MATLAB"
-  - "Max "
-  - "Maxima "
+  - "Max"
+  - "Maxima"
   - "MaxScript"
-  - "Maya "
+  - "Maya"
   - "MDL"
   - "Mercury"
   - "Mesa"
@@ -557,7 +562,7 @@ language:
   - "Oz"
   - "P#"
   - "P′′"
-  - "ParaSail "
+  - "ParaSail"
   - "PARI/GP"
   - "Pascal"
   - "PCASTL"
@@ -613,7 +618,7 @@ language:
   - "ProvideX"
   - "Pure"
   - "Python"
-  - "Q "
+  - "Q"
   - "Qalb"
   - "QPL"
   - "QtScript"
@@ -703,7 +708,7 @@ language:
   - "Subtext"
   - "SuperCollider"
   - "SuperTalk"
-  - "Swift "
+  - "Swift"
   - "SYMPL"
   - "SyncCharts"
   - "SystemVerilog"
@@ -734,7 +739,6 @@ language:
   - "TXL"
   - "TypeScript"
   - "Ubercode"
-  - "UCSD Pascal"
   - "Umple"
   - "Unicon"
   - "Uniface"
@@ -767,7 +771,7 @@ language:
   - "X++"
   - "X10"
   - "XBL"
-  - "XC "
+  - "XC"
   - "xHarbour"
   - "XL"
   - "Xojo"
