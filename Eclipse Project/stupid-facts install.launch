@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.nodeclipse.ui.npm.LaunchConfigurationType">
+<stringAttribute key="bad_container_name" value="stupid-facts install"/>
+<stringAttribute key="key_file_path" value="/stupid-facts/package.json"/>
+<stringAttribute key="key_goal" value="install"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+</launchConfiguration>

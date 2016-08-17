@@ -1,0 +1,6 @@
+{
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160815222444",
+    "yamljs": "registry:dt/yamljs#0.2.3+20160602141818"
+  }
+}
