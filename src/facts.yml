@@ -1,26 +1,43 @@
 text:
-  - "{name} {action} {work} {tech}"
-  - "In {oldyear}, {name} created {tech} for {company}"
-  - "{name} was once {investigate} {crime} a {machine} that belonged to {company}"
-  - "{company} sued {name} in {oldyear} for delivering a poorly written {language} program"
-  - "Around {oldyear}, {name} created the {machine} for {company}"
-  - "{name} swears that {language} is the perfect programming language"
-  - "{name} dreams in {language}"
-  - "In {oldyear}, {company} fired {name} for ruining {tech}"
-  - "{name}'s basement is full of {machine}s"
-  - "Children should be taught to fear the day that {company} {work}s {tech}"
-  - "Somewhere, {name} is {loudly} crying over a {broken} {machine}"
-  - "A restraining order requested by {company} prevents {name} from using {tech}"
-  - "A restraining order requested by {company} prevents {name} from using a {machine}"
-  - "Local law enforcement has been asked to lookout for {name} carrying a {machine}"
-  - "A news article reported that {company} refuses to use {tech} for unknown reasons"
-  - "{name} has an unpublished movie script about {tech} and the {machine}"
+  - "{name} {action} {work} {software}."
+  - "In {oldyear}, {name} created {software} for {company}."
+  - "{name} was once {investigate} {crime} a {hardware} that belonged to {company}."
+  - "{company} sued {name} in {oldyear} for delivering a poorly written {language} program."
+  - "Around {oldyear}, {name} created the {hardware} for {company}."
+  - "{name} swears that {language} is the perfect programming language."
+  - "{name} dreams in {language}."
+  - "In {oldyear}, {company} fired {name} for ruining {software}."
+  - "{name}'s basement is full of {hardware}s."
+  - "Children should be taught to fear the day that {company} {work}s {software}."
+  - "Somewhere, {name} is {loudly} crying over a {broken} {hardware}."
+  - "A restraining order requested by {company} prevents {name} from using {software}."
+  - "A restraining order requested by {company} prevents {name} from using a {hardware}."
+  - "Local law enforcement has been asked to lookout for {name} carrying a {hardware}."
+  - "A news article reported that {company} refuses to use {software} for unknown reasons."
+  - "{name} has an unpublished movie script about {software} and the {hardware}."
+  - "{name} was once president of {company} but was fired after migrating everyone to {software}."
+  - "{name} was the true creator of {tech} but  stole all the credit."
+  - "While working at {company}, {name} was given the task of burying their entire inventory of {hardware}s in a land fill."
+  - "{person} is secretly porting {software} to {machine} in {language}."
+  - "{person} created {language} while in prison for {crime} all of {company}'s {machine}."
+  - "While lesser known than Edward Snowden, {person} once sought asylum in Russia for {crime} {tech}."
+  - "At {company}, it is a dismissible offense to have an intimate relationship with {tech}."
+  - "Despite public claims of tolerance, {company} secretly lobbies congress to ban using {operating system} on {machine}."
+  - "During {oldyear}, {company} decorated all {room}s with old {hardware}."
+  - "While working as a {job} at {company}, {person} spent most of their time in the {room} reading about {tech}."
+  - "{name1} said they heard {name2} {loudly} crying in a {room} about their inability to {work} {tech}."
+  - "While working at {company}, {name} once came in dressed as a giant {machine}.  Other employees {action} use {machine} again."
+name1:
+  - {name}
+name2:
+  - {name}
 company:
   - the NSA
   - a previous employer
   - E Corp
   - Evil Corp
   - Planet Express
+  - MomCorp
   - a Canadian crime syndicate
   - the mafia
   - a local preschool
@@ -35,10 +52,40 @@ company:
   - Wayne Enterprises
   - the Tyrell Corporation
   - AOL
+  - Nova Scotian separatists
+job:
+  - {computer job}
+  - {evil job}
+  - {lame job}
+computer job:
+  - developer
+  - QA analyst
+  - business analyst
+  - server administrator
+  - database administrator
+  - report monkey
+lame job:
+  - janitor
+evil job:
+  - hatchet man
+  - bag man
+  - assassin
+room:
+  - restroom
+  - cubicle
+  - office
+  - executive washroom
+  - cafeteria
+  - janitor closet
+  - server room
+  - data center
+  - corner office
 action:
   - went insane trying to
   - spent years planning to
   - will never
+  - can never
+  - refuse to
 loudly:
   - quietly
   - loudly
@@ -77,39 +124,78 @@ broken:
   - destroyed
   - incinerated
 tech:
+  - {software}
+  - {hardware}
+software:
+  - {operating system}
+  - {protocol}
+  - {application}
+operating system:
   - Xenix
   - OS/2
-  - pulse dialing
-  - Microsoft Bob
   - CICS
   - Windows ME
-  - HyperCard
   - MS-DOS
-  - MacDraw
+protocol:
+  - pulse dialing
   - Kermit
   - xmodem
   - ymodem
   - zmodem
+  - Qmodem
+  - Token Ring
+application:
+  - Microsoft Bob
+  - HyperCard
+  - MacDraw
   - Lotus 1-2-3
   - NCSA Mosaic
-  - Qmodem
   - Norton Commander
   - Netscape Navigator
+  - RACF
+  - Git
+hardware:
+  - {machine}
+  - {peripheral}
 machine:
   - Raspberry Pi
   - Apple Lisa
   - NES
-  - modem
   - slide rule
   - Game Boy
-  - CRT monitor
-  - mimeograph
-  - punch card reader
   - AS/400
   - mainframe
   - PS/2
+peripheral:
+  - CRT monitor
+  - mimeograph
+  - punch card reader
+  - modem
+  - CGA adapter
 name:
+  - {coworker}
+  - {cool person}
+  - {nerd}
+cool person:
   - "Sterling Archer"
+  - Jonathan Byrne
+nerd:
+  - {old nerd}
+  - {young nerd}
+old nerd:
+  - Bill Gates
+  - Larry Ellison
+  - Steve Jobs
+  - Steve Wozniak
+  - Richard Stallman
+  - Linus Torvalds
+  - Steve Allen
+young nerd:
+  - Elon Musk
+  - Mark Zuckerberg
+  - Sergey Brin
+  - Larry Page
+  - Jeff Bezos
 language:
   - "A-0 System"
   - "A#"
