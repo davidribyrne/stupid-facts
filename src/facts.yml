@@ -16,21 +16,16 @@ text:
   - "A news article reported that {company} refuses to use {software} for unknown reasons."
   - "{name} has an unpublished movie script about {software} and the {hardware}."
   - "{name} was once president of {company} but was fired after migrating everyone to {software}."
-  - "{name} was the true creator of {tech} but  stole all the credit."
+  - "{name} was the true creator of {software} but {name} stole all the credit."
   - "While working at {company}, {name} was given the task of burying their entire inventory of {hardware}s in a land fill."
-  - "{person} is secretly porting {software} to {machine} in {language}."
-  - "{person} created {language} while in prison for {crime} all of {company}'s {machine}."
-  - "While lesser known than Edward Snowden, {person} once sought asylum in Russia for {crime} {tech}."
-  - "At {company}, it is a dismissible offense to have an intimate relationship with {tech}."
+  - "{name} is secretly porting {software} to {machine} in {language}."
+  - "{name} created {language} while in prison for {crime} all of {company}'s {machine}s."
+  - "While lesser known than Edward Snowden, {name} once sought asylum in Russia for {crime} {tech}."
   - "Despite public claims of tolerance, {company} secretly lobbies congress to ban using {operating system} on {machine}."
-  - "During {oldyear}, {company} decorated all {room}s with old {hardware}."
-  - "While working as a {job} at {company}, {person} spent most of their time in the {room} reading about {tech}."
-  - "{name1} said they heard {name2} {loudly} crying in a {room} about their inability to {work} {tech}."
-  - "While working at {company}, {name} once came in dressed as a giant {machine}.  Other employees {action} use {machine} again."
-name1:
-  - {name}
-name2:
-  - {name}
+  - "During {oldyear}, {company} decorated all {room}s with old {hardware}s."
+  - "While working as a {job} at {company}, {name} spent most of their time in the {room} reading about {tech}."
+  - "{name} said they heard {name} {loudly} crying in a {room} about their inability to {work} {tech}."
+  - "While working at {company}, {name} once came in dressed as a giant {machine}.  Other employees {action} using them again."
 company:
   - the NSA
   - a previous employer
@@ -54,9 +49,9 @@ company:
   - AOL
   - Nova Scotian separatists
 job:
-  - {computer job}
-  - {evil job}
-  - {lame job}
+  - "{computer job}"
+  - "{evil job}"
+  - "{lame job}"
 computer job:
   - developer
   - QA analyst
@@ -124,12 +119,12 @@ broken:
   - destroyed
   - incinerated
 tech:
-  - {software}
-  - {hardware}
+  - "{software}"
+  - "{hardware}"
 software:
-  - {operating system}
-  - {protocol}
-  - {application}
+  - "{operating system}"
+  - "{protocol}"
+  - "{application}"
 operating system:
   - Xenix
   - OS/2
@@ -155,8 +150,8 @@ application:
   - RACF
   - Git
 hardware:
-  - {machine}
-  - {peripheral}
+  - "{machine}"
+  - "{peripheral}"
 machine:
   - Raspberry Pi
   - Apple Lisa
@@ -173,15 +168,15 @@ peripheral:
   - modem
   - CGA adapter
 name:
-  - {coworker}
-  - {cool person}
-  - {nerd}
+  - "{coworker}"
+  - "{cool person}"
+  - "{nerd}"
 cool person:
   - "Sterling Archer"
   - Jonathan Byrne
 nerd:
-  - {old nerd}
-  - {young nerd}
+  - "{old nerd}"
+  - "{young nerd}"
 old nerd:
   - Bill Gates
   - Larry Ellison
