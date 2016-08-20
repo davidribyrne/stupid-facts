@@ -17,7 +17,9 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Content Include="facts.yml" />
+    <Content Include="facts.yml">
+      <Publish>True</Publish>
+    </Content>
     <Content Include="package.json" />
     <Compile Include="facts.js" />
   </ItemGroup>
