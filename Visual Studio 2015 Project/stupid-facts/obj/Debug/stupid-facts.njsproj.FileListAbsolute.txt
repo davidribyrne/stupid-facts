@@ -1,0 +1,2 @@
+C:\dev\code\jonathanbyrne\stupid-facts\Visual Studio 2015 Project\stupid-facts\obj\Debug\stupid-facts.njsprojResolveAssemblyReference.cache
+C:\dev\code\jonathanbyrne\stupid-facts\Visual Studio 2015 Project\stupid-facts\bin\Microsoft.NodejsTools.WebRole.dll
